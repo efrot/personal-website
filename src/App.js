@@ -1,21 +1,14 @@
 import './App.css';
-import ParticleBackground from './ParticleBackground';
+import ParticleBackground from './ParticleComponent/ParticleBackground';
+import NavBar from './NavBar/NavBar';
+import Home from './Home/Home';
 
 const App = () => {
   return (
-    <div color='#00077'>
-    <ParticleBackground />
-    <ScreenText />
-    </div>
-  );
-}
-
-const ScreenText = () => {
-  return (
-    <div id="text_div center_all">
-      <div className="center_all">
-      <h1> Romans Website</h1>
-      </div>
+    <div className='main'>
+      <NavBar />
+      <Home />
+      <ParticleBackground />
     </div>
   );
 }

@@ -1,0 +1,40 @@
+li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    width: auto;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 25px 50px;
+    text-decoration: none;
+    transition: all .2 ease-in-out;
+}
+
+li a:hover {
+    transform: scale(1.5);
+}
+
+.centertop {
+    margin-top: 1vw;
+    background-color: rgba(0, 0, 0, 0.116);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 18px;
+    height: 8vh;
+    width: 500px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+}
