@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import ParticleBackground from './ParticleComponent/ParticleBackground';
 import NavBar from './NavBar/NavBar';
 import Home from './Home/Home';
